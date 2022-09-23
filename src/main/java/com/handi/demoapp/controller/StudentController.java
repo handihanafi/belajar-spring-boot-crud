@@ -14,6 +14,7 @@ import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping("/student")
+@CrossOrigin
 public class StudentController {
 
     @Autowired
